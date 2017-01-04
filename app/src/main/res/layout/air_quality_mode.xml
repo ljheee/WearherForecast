@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="污染指数" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/tv_air_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:text="38"
+                android:textSize="30sp" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/tv_air_qlty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_air_index"
+                android:layout_centerHorizontal="true"
+                android:text="优" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="污染物" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="PM10" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/tv_pm10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="10" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="0.1dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:background="@color/list_line_color" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="PM2.5" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/tv_pm2.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="20" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="0.1dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:background="@color/list_line_color" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="NO2" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/tv_NO2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="10" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="0.1dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:background="@color/list_line_color" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="SO2" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/tv_SO2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="10" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="0.1dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:background="@color/list_line_color" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="O3" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/tv_O3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="10" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="0.1dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:background="@color/list_line_color" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="CO" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/tv_CO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="10" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

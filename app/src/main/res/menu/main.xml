@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/more_action"
+        android:title="@string/more_action_string"
+        android:icon="@drawable/ic_menu_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/setting_action"
+        android:title="@string/setting_action"/>
+    <item
+        android:id="@+id/exit_action"
+        android:title="@string/exit_action"/>
+
+</menu>
