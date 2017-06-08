@@ -1,6 +1,7 @@
-Android天气预报。
+Android  天气预报。
 
 访问网络，获取天气信息，数据解析、封装、显示；城市切换。
+界面展示详细。
 
 compileSdkVersion 23
 buildToolsVersion '23.0.3'
